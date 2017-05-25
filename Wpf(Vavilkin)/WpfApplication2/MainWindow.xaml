@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="TripAdvisor" Height="600" Width="1400">
+    <Window.Background>
+        <ImageBrush ImageSource="DSC_0453.JPG" Stretch="Fill"></ImageBrush>
+    </Window.Background>
+    <Grid>
+        <Button x:Name="Start" Click="Start_Click" Content="Начать!" HorizontalAlignment="Left" Height="90" 
+                Margin="862,414,0,0" VerticalAlignment="Top" Width="388" Opacity="0.3"
+                Background="#FF00CED1" FontSize="26" FontFamily="Comic Sans MS"/>
+        <Label x:Name="label" Content="Нажмите кнопку &quot;Начать!&quot;, чтобы спланировать своё&#xD;&#xA; путешествие! &#xA;" 
+               HorizontalAlignment="Center" VerticalAlignment="Top" Height="119" Width="1088" 
+               FontSize="40" Margin="208,23,10,0" FontFamily="Comic Sans MS"/>
+       
+
+    </Grid>
+</Window>
