@@ -29,7 +29,7 @@ namespace WpfApplication2
             StreamReader sr = new StreamReader("root.txt");
             while (!sr.EndOfStream)
             {
-                string[] input = sr.ReadLine().Split('>');
+                string[] input = sr.ReadLine().Split(' ');
                 rootlist.Add(new Root(input[0], input[1], input[2], input[3]));
             }
             foreach (Root root in rootlist)

@@ -38,7 +38,7 @@ namespace WpfApplication2
 
         public string root()
         {
-            return continent + ">" + name + ">" + Capital + ">";
+            return continent + " " + name + " " + Capital + " ";
         }
     }
 }
